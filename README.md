@@ -147,18 +147,18 @@ Duty% = (100/200)*100=50%
 
 FOR PULSE AT 6000
 
-TON = 1.7
-TOFF= 1.5
-TOTAL TIME = 3.2
-Duty% = (1.7/3.2)*100=53%
+TON = 350
+TOFF= 200
+TOTAL TIME = 550
+Duty% = (350/550)*100=63%
 
 
 FOR PULSE AT 7000
 
-TON = 2.2
-TOFF= 2.4
-TOTAL TIME = 4.6
-Duty% = (2.2/4.6)*100=47%
+TON = 400
+TOFF= 150
+TOTAL TIME = 550
+Duty% = (400/550)*100=72%
 
 
 ## Result :
