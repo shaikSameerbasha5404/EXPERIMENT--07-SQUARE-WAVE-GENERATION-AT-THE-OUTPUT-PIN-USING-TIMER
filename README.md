@@ -96,39 +96,69 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
+```
+#include "main.h"
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  MX_TIM2_Init();
+ HAL_TIM_Base_Start(&htim2);
+ HAL_TIM_PWM_Init(&htim2);
+ HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+  while (1)
+  {
+    
+}
+
+```
 
 
 
 
 
 ## Output screen shots of proteus  :
+
+![Screenshot (53)](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/3749325d-6b3a-4643-8bc3-e1348a5f8431)
+
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+![Screenshot (54)](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/56e69b52-bc27-4776-85f1-9140965c661b)
 
-## DUTY CYCLE AND FREQUENCY CALCULATION 
-FOR PULSE AT 500
+## Screen shots of oscilloscope:
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+![Screenshot (26)](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/dfc773e8-c4a2-43fa-91d0-0cc28b02f721)
 
-FOR PULSE AT 700
-
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+![Screenshot (51)](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/c37b0640-cec8-4332-b3e3-ea173a846828)
 
 
-FOR PULSE AT 900
+ ![Screenshot (52)](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/ed484eca-d47f-4f67-a95b-62e7b711d4c4)
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+
+## DUTY CYCLE AND FREQUENCY CALCULATION :
+FOR PULSE AT 5000
+
+TON = 100
+TOFF=100
+TOTAL TIME = 200
+Duty% = (100/200)*100=50%
+
+FOR PULSE AT 6000
+
+TON = 1.7
+TOFF= 1.5
+TOTAL TIME = 3.2
+Duty% = (1.7/3.2)*100=53%
+
+
+FOR PULSE AT 7000
+
+TON = 2.2
+TOFF= 2.4
+TOTAL TIME = 4.6
+Duty% = (2.2/4.6)*100=47%
 
 
 ## Result :
