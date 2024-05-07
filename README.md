@@ -233,7 +233,7 @@ TOFF= 0.5ms
 TOTAL TIME = 4ms
 FREQUENCY = 1/(TOTAL TIME)=1/4=250Hz
 
-![6 5](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/3d4e76ea-b31f-4e83-8ffb-1ffefdda77b0)
+![Screenshot (263)](https://github.com/shaikSameerbasha5404/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707756/9ec2933f-3075-4f5f-a891-6ced3859aec5)
 
 
 ## Result :
